@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIBarButtonItem-Badge"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A category to add a badge to any UIBarButtonItem"
 
   s.description  = <<-DESC
@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/mmusallam/UIBarButtonItem-Badge"
   s.license      = "MIT"
-  s.author             = "mmusallam"
+  s.author       = "mmusallam"
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/mmusallam/UIBarButtonItem-Badge.git", :tag => "0.0.6" }
+  s.source       = { :git => "https://github.com/mmusallam/UIBarButtonItem-Badge.git", :tag => "0.0.7" }
 
   s.source_files  = "*.{h,m}"
   s.exclude_files = "Demo"
